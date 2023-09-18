@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+  margin-top: 10px;
+  font-family: "Cuvete";
+  margin-bottom: 20px;
+}
+
+.search-container {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 8px;
+  border-width: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+.bi {
+  margin-left: 13px;
+}
+
+.search {
+  outline: none;
+  border: none;
+}
+
+.sub-path {
+  color: black;
+}
+
+.path {
+  color: lightgrey;
+}
+
+.chart-section {
+  margin-top: 15px;
+}
+
+.bar-chart {
+
+  padding: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cash {
+  font-weight: 700;
+}
+
+.middle-container {
+  margin-bottom: 8px;
+}
+
+
+.side-menu-bar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: rgb(58, 58, 58);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+
+}
+
+li {
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.li:hover {
+  background-image: linear-gradient(to right, blue, lightblue);
+  width: 100%;
+}
+
+.first-container {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.section2 {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .first-container {
+    flex-direction: column;
+  }
+
+  .section2 {
+    flex-direction: column;
+  }
+}
