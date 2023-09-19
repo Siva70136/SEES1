@@ -279,7 +279,7 @@ li{
   display: flex;
 }
 .chart{
-  max-width: 350px;
+  max-width: 270px;
 }
 
 @media only screen and (max-width: 768px) {
