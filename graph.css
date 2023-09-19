@@ -103,4 +103,9 @@ li {
   .section2 {
     flex-direction: column;
   }
+
+  .icons-container {
+    display: none;
+  }
+
 }
