@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
 
 .main-container {
   margin-top: 10px;
@@ -278,12 +278,27 @@ li{
 .section2{
   display: flex;
 }
+.chart{
+  max-width: 350px;
+}
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .earning-card{
+    width: 100%;
+  }
+  .chart{
+    max-width: 200px;
+  }
   .section1{
     flex-direction: column;
   }
   .section2{
     flex-direction: column;
+  }
+  .icons-container{
+    display: none;
+  }
+  .icon1{
+    width: 90px;
   }
 }
