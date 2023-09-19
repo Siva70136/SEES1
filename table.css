@@ -179,3 +179,10 @@ tr {
     background-image:linear-gradient(to right,blue,lightblue);
     width: 100%;
   }
+@media only screen and (max-width: 768px) {
+ 
+  .icons-container{
+    display: none;
+  }
+  
+}
