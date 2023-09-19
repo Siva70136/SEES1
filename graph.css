@@ -99,11 +99,8 @@ li {
   .first-container {
     flex-direction: column;
   }
-    .second-container {
-    flex-direction: column;
-  }
 
-  .section2 {
+  .second-container {
     flex-direction: column;
   }
 
